@@ -32,10 +32,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 34%;
 }
 
 .narrow {
@@ -75,7 +76,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -91,18 +92,27 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: red;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 16.7%;
+  width: 100%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16.7%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%;
+  width: 100%;
 }
 
 /* END QUESTION 2 */
@@ -162,4 +172,15 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+}
+
+.label {
+  color: rgb(3, 110, 3);
+  transition-duration: 0.5s;
+}
+
+.label:hover {
+  color: orange;
+  font-size: 25px;
+  cursor: pointer;
 }
